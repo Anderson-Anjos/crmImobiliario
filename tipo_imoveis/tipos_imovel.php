@@ -1,5 +1,5 @@
 <?php
-require './include/conecta.php';
+require '../include/conecta.php';
 
 // Exclusão
 if (isset($_GET['delete'])) {
@@ -100,7 +100,7 @@ $tipos = $db->query("SELECT * FROM tipos_imovel ORDER BY nome ASC")->fetchAll(PD
         </tbody>
     </table>
 
-    <a href="./index.php" class="btn btn-secondary mt-3">Voltar</a>
+    <a href="../index.php" class="btn btn-secondary mt-3">Voltar</a>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>

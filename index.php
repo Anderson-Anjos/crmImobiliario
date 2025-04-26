@@ -50,7 +50,7 @@ $qtdClientes = $db->query('SELECT COUNT(*) FROM clientes')->fetchColumn();
                     <h5 class="card-title">Imóveis</h5>
                     <p class="card-count"><?= $qtdImoveis ?></p>
                     <p class="card-text">Cadastre, edite e visualize imóveis disponíveis.</p>
-                    <a href="imoveis.php" class="btn btn-primary mt-3">Gerenciar Imóveis</a>
+                    <a href="./imoveis/imoveis.php" class="btn btn-primary mt-3">Gerenciar Imóveis</a>
                 </div>
             </div>
         </div>
@@ -61,7 +61,7 @@ $qtdClientes = $db->query('SELECT COUNT(*) FROM clientes')->fetchColumn();
                     <h5 class="card-title">Tipos de Imóvel</h5>
                     <p class="card-count"><?= $qtdTipos ?></p>
                     <p class="card-text">Gerencie os tipos: casa, kitnet, apartamento, etc.</p>
-                    <a href="tipos_imovel.php" class="btn btn-primary mt-3">Gerenciar Tipos</a>
+                    <a href="./tipo_imoveis/tipos_imovel.php" class="btn btn-primary mt-3">Gerenciar Tipos</a>
                 </div>
             </div>
         </div>
@@ -72,7 +72,7 @@ $qtdClientes = $db->query('SELECT COUNT(*) FROM clientes')->fetchColumn();
                     <h5 class="card-title">Clientes & Interesses</h5>
                     <p class="card-count"><?= $qtdClientes ?></p>
                     <p class="card-text">Cadastre interesses dos clientes e encontre oportunidades.</p>
-                    <a href="clientes.php" class="btn btn-primary mt-3">Gerenciar Clientes</a>
+                    <a href="./clientes/clientes.php" class="btn btn-primary mt-3">Gerenciar Clientes</a>
                 </div>
             </div>
         </div>

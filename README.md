@@ -11,9 +11,10 @@ O que você melhoraria se tivesse mais tempo.:
 1° O visual do CRM
 2° Adicionaria mais regras de negócios e validações
 - O cliente informar se pretende alugar um imóvel, comprar um imóvel ou ambos.
+- Telefone para contato do dono dos imóveis (Pensei nisso agora no final).
 - informar o estado, cidade e bairro, pois ele pode está procurando para outro estado. Puxar essas informações da API dos correios ou IBGE para ficar dinámico!
 - Criar um sistema de Login para ficar mais seguro.
 - Criar sistema de LOG para tudo ficar salvo e documentado!
 - Criar sistema de Agendamento, para marcar a visita com o possível Cliente.
 
- Essas são algumas coisas que eu fiquei em mente, mas não tinha tempo habil para fazer tais adições.
+ Essas são algumas coisas que eu pensei que poderia melhorar, mas não tinha tempo hábil para fazer esses ajustes.

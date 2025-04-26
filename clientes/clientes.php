@@ -1,5 +1,5 @@
 <?php
-require './include/conecta.php';
+require '../include/conecta.php';
 
 
 // Buscar tipos de imóvel
@@ -141,7 +141,7 @@ $clientes = $db->query("
         </tbody>
     </table>
 
-    <a href="index.php" class="btn btn-secondary mt-3">Voltar</a>
+    <a href="../index.php" class="btn btn-secondary mt-3">Voltar</a>
 
     <!-- Modal de Edição -->
 <div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="editModalLabel" aria-hidden="true">
@@ -207,7 +207,7 @@ $clientes = $db->query("
       </div>
       <div class="modal-footer">
         <a href="clientes.php" class="btn btn-secondary">Voltar</a>
-        <a href="imoveis.php" class="btn btn-primary">Cadastrar Novo Imóvel</a>
+        <a href="../imoveis/imoveis.php" class="btn btn-primary">Cadastrar Novo Imóvel</a>
       </div>
     </div>
   </div>

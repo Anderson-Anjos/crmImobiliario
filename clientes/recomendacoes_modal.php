@@ -1,5 +1,5 @@
 <?php
-require './include/conecta.php';
+require '../include/conecta.php';
 
 $id_cliente = $_GET['id_cliente'] ?? null;
 if (!$id_cliente) {
